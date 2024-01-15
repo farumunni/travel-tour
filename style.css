@@ -1,0 +1,133 @@
+/* *{
+    margin-left: 40px;
+    margin-right:  40px;
+} */
+span{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-size: 25px;
+}
+.logo{
+    display: flex;
+    gap:8px;
+}
+
+img{
+    height: 35px;
+    padding-top: 20px;
+}
+ul{
+    padding: 9px;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color:#424247;
+}
+
+.headerr{
+    background-image: url('./Images/Group_13.png'); 
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width:auto;
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.headerrr{
+    background-color: rgba(0, 0, 0, 0.262);
+    width:auto;
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.headd{
+    padding: 150px;
+    padding-top: 70px;
+}
+.headd h1{
+    font-size: 64px;
+    color: #FFF;
+}
+.headd p{
+    font-size: 18px;
+    color: #FFF;
+}
+.headdd{
+    background-color: rgba(255, 255, 255, 0.323);
+    height: 80px;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+.headdd input{
+    background-color: #FFF;
+    color:rgba(19, 19, 24, 0.50);
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+
+}
+.headdd button{
+    width: 174px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .headerr{
+        height: 480px;
+    }
+    .headerrr{
+        height: 480px;
+    }
+
+    .headd{
+        padding: 10px;
+    }
+    .headdd{
+        background-color: rgba(255, 255, 255, 0.323);
+        border-radius: 15px;
+    }
+    .headd h1{
+        font-size: 22px;
+        
+    }
+    .headd p{
+        font-size: 14px;
+       
+    }
+    .headdd{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        background-color: rgba(255, 255, 255, 0.323);
+        height: 250px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+}
