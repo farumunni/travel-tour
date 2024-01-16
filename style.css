@@ -10,8 +10,8 @@ span{
     color: #FF5400;
 }
 nav{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -38,20 +38,34 @@ a{
     color:#424247;
 }
 
+h1{
+    font-size: 30px;
+    color: #1e1e20;
+}
+h3{
+    font-size: 20px;
+    color: #1e1e20;
+}
+
+p ,li{
+    font-size: 17px;
+    color: #5A5A5D;
+}
+
 .headerr{
     background-image: url('./Images/Group_13.png'); 
     background-repeat: no-repeat;
     border-radius: 15px;
-    width:auto;
+    background-size: cover;
     height: 500px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
     
 }
 
 .headerrr{
     background-color: rgba(0, 0, 0, 0.262);
-    width:auto;
+  
     height: 500px;
     border-radius: 15px;
     text-align: center;
@@ -78,7 +92,7 @@ a{
 .headdd input, select {
     background-color: #FFF;
     color:rgba(19, 19, 24, 0.50);
-    width: 174px;
+    width: 150px;
     height: 40px;
     border-radius: 10px;
     border: none;
@@ -94,24 +108,18 @@ a{
     border: none;
 }
 
-
+.article {
+    display: block;
+}
 
 .Popular{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 50px;
     display: flex;
-    
     justify-content: space-between;
     
 }
 .Popu{
     height: 350px;
-}
-.Popular h1{
-    font-size: 30px;
-}
-.Popular p ,li{
-    font-size: 15px;
 }
 .Popular ul{
     display: flex;
@@ -120,7 +128,7 @@ a{
 }
 
 .Popular img{
-    height: 400px;
+    height: 500px;
 }
 .Popular button{
     width: 150px;
@@ -128,8 +136,194 @@ a{
     padding-left: 10px;
     border-radius: 10px;
     border: none;
+}
+
+
+
+
+.Destination{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.Destination img{
+    height: 250px;
     
 }
+.Destimg{
+    margin:  50px ;
+}
+.Destination .imgg{
+    /* display: flex;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(2 ,600px);
+    gap: 10px;
+    position: relative;
+     
+}
+.Destination .imgg .imggf{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+
+}
+.Destination .imgg .imggf .maldives {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.Destination .imgg .imggs{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imgg .imggs .indonesia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.Destination .imggg{
+    display: grid;
+    grid-template-columns: repeat(3 ,400px);
+    gap: 10px;
+   
+}
+
+.Destination .imggg .imgggf{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imggg .imgggf .srilanka {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.Destination .imggg .imgggs{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imggg .imgggs .north {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.Destination .imggg .imgggt{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imggg .imgggt .kashmir {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+
+.Destination .imgggg{
+    display: grid;
+    grid-template-columns: repeat(2 ,600px);
+    gap: 10px;
+}
+
+
+.Destination .imgggg .imggggf{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imgggg .imggggf .bangladesh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.Destination .imgggg .imggggs{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.Destination .imgggg .imggggs .bandarban {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+
+
+
+.choose{
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.choosee{
+
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+}
+
+
+.choose .choosef{
+   background-color: #c7a47d28;
+   margin: 20px;
+   padding: 20px;
+   text-align: start;
+   border-radius: 10px;
+
+}
+.choose .chooses{
+    background-color: #00d5ff1c;
+    margin: 20px;
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+    
+}
+.choose .chooset{
+    text-align: start;
+    background-color: rgba(255, 0, 102, 0.118);
+    width: 600px;
+    height: 234px;
+    margin-left:300px ;
+    margin-right:300px ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
 
 
 
@@ -142,9 +336,14 @@ a{
 
 
 @media screen and (max-width:600px) {
+    nav{
+        margin-left: 20px;
+    }
     .headerr{
         height: 480px;
+        margin: 15px;
     }
+
     .headerrr{
         height: 480px;
     }
@@ -155,6 +354,7 @@ a{
     .headdd{
         background-color: rgba(255, 255, 255, 0.323);
         border-radius: 15px;
+
     }
     .headd h1{
         font-size: 22px;
@@ -170,18 +370,64 @@ a{
         gap:20px;
         background-color: rgba(255, 255, 255, 0.323);
         height: 250px;
-        padding: 30px;
+        padding-left: 150px;
         border-radius: 15px;
+        
     }
 
     .Popular{
+        margin: 20px;
         flex-direction: column;
         gap: 150px;
               
     }
     .Popular img{
-        height: 300px;
+        height: 470px;
     }
+    .Destination{
+        margin:  20px ;
+    }
+    .Destination .Destimg img{
+        width: 470px;
+        
+    }
+    .Destination .imgg{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+    .Destination .imggg{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+       
+    }
+    .Destination .imgggg{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .choose{
+        margin: 20px;
+        
+    }
+
+    .choosee{
+        grid-template-columns: repeat(1, 600px);
+    }
+    .choose .chooset{
+        width: 520px;
+        margin-left:20px ;
+        margin-right:20px ;
+        
+    }
+
+
+
 
 }
 
