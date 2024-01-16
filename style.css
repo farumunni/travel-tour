@@ -172,6 +172,7 @@ p ,li{
     justify-content: space-evenly; */
     display: grid;
     grid-template-columns: repeat(2 ,700px);
+    justify-content: space-evenly;
     gap: 10px;
     position: relative;
      
@@ -207,6 +208,7 @@ p ,li{
 .Destination .imggg{
     display: grid;
     grid-template-columns: repeat(3 ,400px);
+    justify-content: space-between;
     gap: 10px;
    
 }
@@ -257,6 +259,7 @@ p ,li{
 .Destination .imgggg{
     display: grid;
     grid-template-columns: repeat(2 ,600px);
+    justify-content: space-evenly;
     gap: 10px;
 }
 
@@ -341,6 +344,7 @@ p ,li{
 
 }
 .News{
+    height: 360px;
     padding: 20px;
     border: 2px solid  #FF5400;
     border-radius: 16px;
@@ -349,7 +353,7 @@ p ,li{
     margin: 10px;
     display: flex;
     height: 30px;
-    width: 500px;
+    width: 400px;
     flex-direction: column;
     border: none;
     border-radius: 8px;
@@ -362,11 +366,35 @@ p ,li{
 }
 
 .Newsletter img{
-    height: 300px;
+    height: 400px;
+    
+    
+}
+.Newsletter .nmmn{
+    position: relative;
 }
 
+ .Newssc{
+    top: -180px;
+    left: 350px;
+}
 
-
+.Newss{
+width: 270px;
+height: 120px;
+transform: rotate(-24.628deg);
+background-color: #FF5400;
+padding:5px;
+border-radius: 15px;
+}
+.Newss h3{
+    font-size: 25px;
+    padding-left:  35px;
+}
+.Newss h5{
+    font-size: 15px;
+    padding-left:  35px;
+}
 .Deals{
     text-align: center;
     margin: 100px;
@@ -427,6 +455,28 @@ p ,li{
     display: flex;
     margin: 50px;
 }
+.review{
+    text-align: center;
+}
+.rev{
+    display: flex;
+    justify-content: space-around;
+}
+.rev .iimg{
+    height: 350px;
+}
+.rev .checked{
+    color: rgb(251, 205, 24);
+}
+.rev span{
+    color: rgb(179, 170, 170);
+}
+.review h1{
+    font-size: 50px;
+}
+
+
+
 
 
 
@@ -582,6 +632,19 @@ footer .logoo{
         padding:  15px;
         
     }
+    .rev{
+        flex-direction: column;
+    }
+
+
+.Newsletter .nmmn{
+    position: relative;
+}
+
+ .Newssc{
+    top: -180px;
+    left: 350px;
+}
     
 }
 
